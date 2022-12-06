@@ -22,5 +22,5 @@ Rails.application.routes.draw do
   post '/tutorials', to: 'tutorials#create'
   delete '/tutorials/:id', to: 'tutorials#destroy'
 
-  # resources :reviews , only: [:index,:create]
+  resources :reviews , only: [:index,:create]
 end
