@@ -31,7 +31,8 @@ SIGNUP PAGE ![Signup page](./images/signuppage.png)
 
 TRAINERS  ![Trainers](./images/Trainers_page.png)
 ADD TUTORIALS  ![Add Yoga Tutorials](./images/Tutorials-page.png)
-### Project Technologies
+ Project Technologies
+---
 Frontend
 ---
 + HTML
