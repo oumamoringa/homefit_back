@@ -1,9 +1,15 @@
 
 
 puts "Seeding started";
-trainer1=Trainer.create(name: 'Jason Mutua', email: 'jason.mutua@gmail.com', address: "Ngong Road,Nairobi");
-trainer2=Trainer.create(name: 'Tina Nanjala', email: 'nanjalatima@gmail.com', address: "Riverside,Nairobi")
-trainer3=Trainer.create(name: 'Francis Butiama', email: 'butiamafrank@yahoo.com', address: "South C,Nairobi")
+trainer1=Trainer.create(name: 'Richard Ouma', email: 'ouma.richrd@gmail', address: "Ngong Road,Nairobi");
+trainer2=Trainer.create(name: 'Beatrice Wambui', email: 'wambui.beatrice@gmail.com', address: "Lavington,Nairobi")
+trainer3=Trainer.create(name: 'Joseph Macharia', email: 'machari.jose45@gmail.com', address: "Satelite,Nairobi")
+trainer4=Trainer.create(name: 'Lisa Lyayuga', email: 'lyayugalisa505@gmail.com', address: "Kabiria,Nairobi")
+trainer5=Trainer.create(name: 'Chris Mbogo', email: 'chris.mbogo@gmail.com', address: "Donholm,Nairobi")
+trainer6=Trainer.create(name: 'Oscar Okumu', email: 'okumuoscar45@gmail.com', address: "South B,Nairobi")
+trainer7=Trainer.create(name: 'Valeria Bosibori', email: 'bosiborival505@gmail.com', address: "Kilimani, Nairobi")
+trainer8=Trainer.create(name: 'Ivy Murage', email: 'murage.ivy34@gmailcom', address: "Karen,Nairobi")
+
 
 tutorial1=Tutorial.create(name:  "Yoga For Complete Beginners - 20 Minute Home Yoga Workout!
 " ,description:"Yoga for Complete Beginners! Adriene welcomes all levels - complete and total beginners to start here! Hop on the mat and start to build the foundation of your own yoga practice with this 20 minute home workout video! Enjoy, stay mindful and find what feels good." ,url: "https://www.youtube.com/embed/v7AYKMP6rOE&t=95s" ,trainer_id:trainer1.id)
