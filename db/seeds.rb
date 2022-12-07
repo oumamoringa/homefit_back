@@ -1,6 +1,6 @@
 
 
-puts "Seeding started";
+puts "Seeding started...🏋️";
 trainer1=Trainer.create(name: 'Richard Ouma', email: 'ouma.richrd@gmail', address: "Ngong Road,Nairobi");
 trainer2=Trainer.create(name: 'Beatrice Wambui', email: 'wambui.beatrice@gmail.com', address: "Lavington,Nairobi")
 trainer3=Trainer.create(name: 'Joseph Macharia', email: 'machari.jose45@gmail.com', address: "Satelite,Nairobi")
@@ -27,4 +27,4 @@ tutorial9=Tutorial.create(name:  "30 MIN INTENSE Build & Burn HIIT Workout - NO 
 
     Today we start with a nice warm up (dynamic movements & stretching). Next we have 20 HIIT and Strength exercises,  50 seconds on each exercise, followed by 10 seconds of rest. At the end we finish together with a cool down." ,url: "https://www.youtube.com/embed/U1AxehdzHRs" ,trainer_id:trainer3.id)
 
-    puts("Done seeding")
+    puts("Done seeding💪")
