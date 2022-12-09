@@ -4,11 +4,7 @@ puts "Seeding started...🏋️";
 trainer1=Trainer.create(name: 'Richard Ouma', email: 'ouma.richrd@gmail', address: "Ngong Road,Nairobi");
 trainer2=Trainer.create(name: 'Beatrice Wambui', email: 'wambui.beatrice@gmail.com', address: "Lavington,Nairobi")
 trainer3=Trainer.create(name: 'Joseph Macharia', email: 'machari.jose45@gmail.com', address: "Satelite,Nairobi")
-trainer4=Trainer.create(name: 'Lisa Lyayuga', email: 'lyayugalisa505@gmail.com', address: "Kabiria,Nairobi")
-trainer5=Trainer.create(name: 'Chris Mbogo', email: 'chris.mbogo@gmail.com', address: "Donholm,Nairobi")
-trainer6=Trainer.create(name: 'Oscar Okumu', email: 'okumuoscar45@gmail.com', address: "South B,Nairobi")
-trainer7=Trainer.create(name: 'Valeria Bosibori', email: 'bosiborival505@gmail.com', address: "Kilimani, Nairobi")
-trainer8=Trainer.create(name: 'Ivy Murage', email: 'murage.ivy34@gmailcom', address: "Karen,Nairobi")
+
 
 
 tutorial1=Tutorial.create(name:  "Yoga For Complete Beginners - 20 Minute Home Yoga Workout!
@@ -22,9 +18,5 @@ tutorial7=Tutorial.create(name:  "This Killer Workout Torches Calories — About
 " ,description:"It's time to break a sweat! This 45-minute workout from celebrity trainer Jeanette Jenkins, who trains Pink and Alicia Keys, will help you burn up to 500 calories. How, you might ask? Because Jeanette keeps you moving the entire time! It's a wonderfully intense workout, but we offer modifications for all the moves too. Grab a towel to mop your brow, a bottle of water to hydrate during the workout, and press play." ,url: "https://www.youtube.com/embed/_Zem0_qsDg0" ,trainer_id:trainer3.id)
 tutorial8=Tutorial.create(name:  "12 Minute Leg Slimming Workout For Women Over 50!
 " ,description:"12 minute slimmer legs workout with exercises for the inner thigh, outer thigh, glutes to lengthen and tone your legs for summer. Suitable exercise for beginners and women over 50." ,url: "https://www.youtube.com/embed/8CxwX_dFg1k" ,trainer_id:trainer3.id)
-tutorial9=Tutorial.create(name:  "30 MIN INTENSE Build & Burn HIIT Workout - NO REPEAT - with weights (dumbbells), full body
-" ,description:"Burning calories and building muscle doesn't need to be complicated. All you need is 30 Minutes Time and a set of dumbbells. Let's do it: 30 MINUTE HIIT & STRENGTH Workout with weights (dumbbells).
-
-    Today we start with a nice warm up (dynamic movements & stretching). Next we have 20 HIIT and Strength exercises,  50 seconds on each exercise, followed by 10 seconds of rest. At the end we finish together with a cool down." ,url: "https://www.youtube.com/embed/U1AxehdzHRs" ,trainer_id:trainer3.id)
 
     puts("Done seeding💪")
